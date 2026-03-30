@@ -1,0 +1,45 @@
+#!/bin/bash
+set -euo pipefail
+
+apt-get update -y
+
+############################################
+# Install Python 3 + pip
+############################################
+apt-get install -y python3 python3-pip
+
+############################################
+# Install AWS CLI v2
+############################################
+apt-get install -y unzip
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+./aws/install
+
+############################################
+# Install Terraform
+############################################
+apt-get install -y gnupg software-properties-common wget
+
+wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | tee /usr/share/keyrings/hashicorp.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp.gpg] \
+https://apt.releases.hashicorp.com $(lsb_release -cs) main" \
+| tee /etc/apt/sources.list.d/hashicorp.list
+
+apt-get update -y
+apt-get install -y terraform
+
+############################################
+# Install Java 21 (LTS)
+############################################
+apt-get install -y openjdk-21-jdk
+
+############################################
+# Optional: Log versions to startup logs
+############################################
+echo "===== Versions Installed ====="
+terraform -version
+aws --version
+python3 --version
+java --version
+echo "=============================="
