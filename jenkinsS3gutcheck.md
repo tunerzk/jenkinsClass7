@@ -8,6 +8,8 @@ https://github.com/tunerzk/Armageddongroupwork
 
 SUCCESSFULL WEBHOOK INVOCATION FROM STUDENTS OWN GITHUB:
 <img width="1846" height="583" alt="image" src="https://github.com/user-attachments/assets/4911a073-de9e-42af-ac9e-1b9aa8510900" />
+<img width="1340" height="470" alt="image" src="https://github.com/user-attachments/assets/e0ec4b34-0786-4f12-bd60-5f3875eaf784" />
+
 
 
 
