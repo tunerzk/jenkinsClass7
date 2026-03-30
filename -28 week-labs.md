@@ -13,6 +13,8 @@ Successfully deploy a jenkins pipeline build using a GitHub repo in your account
 
 BAM 1
 Modify the startup script to include terraform, AWS, and Python, update the java version used to either Java 21 or 25, and upload a screenshot of all 4 versions (terraform, AWS, Python, Java) after connecting to the server's/container's command line. show evidence via screenshots.
+<img width="1413" height="688" alt="image" src="https://github.com/user-attachments/assets/ebd0155c-2f0d-4a8f-96a3-e375fe82f9e9" />
+
 
 
 
