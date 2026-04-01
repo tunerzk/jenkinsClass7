@@ -36,6 +36,10 @@ terraform {
 }
 ######################################################################
 
+JENKINSFILE UPLOAD TO S3 TERRAFORM#######################
+<img width="1076" height="495" alt="image" src="https://github.com/user-attachments/assets/50919eb7-6648-4785-b43c-e756a57b45d9" />
+
+
 
 
 
