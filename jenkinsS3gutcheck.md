@@ -21,6 +21,23 @@ PROOF OF UPDATE VERSIONS OF PYTHON and JAVA:
 <img width="730" height="213" alt="image" src="https://github.com/user-attachments/assets/053014ee-e309-49da-a245-6e8c3caf5cc8" />
 
 
+TERRAFORM S3 BUCKET CODE:
+<img width="774" height="364" alt="image" src="https://github.com/user-attachments/assets/f37f969e-477a-4cff-8b89-1903e8f86bfd" />
+
+terraform {
+  backend "s3" {
+    bucket         = "terraform-state-kevjenkinstest"
+    key            = "jenkins/terraform.tfstate"
+    region         = "us-east-1"
+    dynamodb_table = "terraform-locks"
+    encrypt        = true
+    use_lockfile   = true
+  }
+}
+######################################################################
+
+
+
 
 
 
