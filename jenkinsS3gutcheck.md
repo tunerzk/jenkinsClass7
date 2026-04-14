@@ -45,6 +45,12 @@ FILES UPLOADED TO MY S3 BUCKET FOR GUTCHECK ###########################
 
 
 
+THEO ARMAGEDDON APPROVAL PROOF#############################################
+<img width="412" height="557" alt="image" src="https://github.com/user-attachments/assets/58824f6d-6538-4981-8ddc-425608bce91d" />
+
+
+
+
 
 
 
